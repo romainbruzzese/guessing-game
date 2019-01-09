@@ -18,7 +18,7 @@
 
 <html>
 <head>
-<title> Romain Bruzzese 48016789</title>
+<title> Romain Bruzzese's Guessing game</title>
 </head>
 <body>
 <h1>Welcome to my guessing game</h1>
@@ -37,6 +37,6 @@ echo ("<p>$message</p>\n");
 <br>
 <br>
 <h2>$_POST:</h2> <?php print_r($_POST); ?>
+<h2>$_POST:</h2> <?php print_r($_GET); ?>
 </body>
 </html>
-  
