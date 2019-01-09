@@ -1,9 +1,9 @@
 <?php
   $oldguess = '';
   $message = false;
-  if ( isset($_POST['guess']) ) {
+  if ( isset($_REQUEST['guess']) ) {
   // trick for integer / numeric parameters
-  $oldguess = $_POST['guess'] +0;
+  $oldguess = $_REQUEST['guess'] +0;
   if ( $oldguess == 42 ) {
   $message = "Great Job";
   } else if ( $oldguess < 42 ) {
